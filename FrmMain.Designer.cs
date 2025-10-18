@@ -67,10 +67,10 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.FrmMain_PhucHoa;
-            pictureBox1.Location = new Point(134, 28);
+            pictureBox1.Image = Properties.Resources.FrmMain_PhucHoa1;
+            pictureBox1.Location = new Point(179, 32);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(731, 421);
+            pictureBox1.Size = new Size(661, 428);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -224,7 +224,7 @@
             btnHoaDon.FillColor2 = Color.Transparent;
             btnHoaDon.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnHoaDon.ForeColor = Color.Red;
-            btnHoaDon.Location = new Point(0, 256);
+            btnHoaDon.Location = new Point(0, 257);
             btnHoaDon.Name = "btnHoaDon";
             btnHoaDon.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnHoaDon.Size = new Size(207, 44);
@@ -244,7 +244,7 @@
             btnNhanVien.FillColor2 = Color.Transparent;
             btnNhanVien.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnNhanVien.ForeColor = Color.Red;
-            btnNhanVien.Location = new Point(0, 295);
+            btnNhanVien.Location = new Point(0, 301);
             btnNhanVien.Name = "btnNhanVien";
             btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges14;
             btnNhanVien.Size = new Size(207, 53);
@@ -264,10 +264,10 @@
             btnBCTK.FillColor2 = Color.Transparent;
             btnBCTK.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBCTK.ForeColor = Color.Red;
-            btnBCTK.Location = new Point(0, 348);
+            btnBCTK.Location = new Point(0, 345);
             btnBCTK.Name = "btnBCTK";
             btnBCTK.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnBCTK.Size = new Size(207, 48);
+            btnBCTK.Size = new Size(207, 54);
             btnBCTK.TabIndex = 0;
             btnBCTK.Text = "Thống kê";
             // 
@@ -284,7 +284,7 @@
             guna2GradientButton1.FillColor2 = Color.Red;
             guna2GradientButton1.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2GradientButton1.ForeColor = Color.White;
-            guna2GradientButton1.Location = new Point(0, 393);
+            guna2GradientButton1.Location = new Point(0, 397);
             guna2GradientButton1.Name = "guna2GradientButton1";
             guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2GradientButton1.Size = new Size(207, 56);
