@@ -150,6 +150,7 @@
             btnLichKham.Size = new Size(207, 46);
             btnLichKham.TabIndex = 0;
             btnLichKham.Text = "  Lịch khám";
+            btnLichKham.Click += btnLichKham_Click;
             // 
             // btnKhamBenh
             // 
@@ -169,6 +170,7 @@
             btnKhamBenh.Size = new Size(207, 50);
             btnKhamBenh.TabIndex = 0;
             btnKhamBenh.Text = "   Khám bệnh";
+            btnKhamBenh.Click += btnKhamBenh_Click;
             // 
             // btnDonThuoc
             // 
@@ -188,6 +190,7 @@
             btnDonThuoc.Size = new Size(207, 53);
             btnDonThuoc.TabIndex = 0;
             btnDonThuoc.Text = "  Đơn thuốc";
+            btnDonThuoc.Click += btnDonThuoc_Click;
             // 
             // btnThuoc
             // 
@@ -207,6 +210,7 @@
             btnThuoc.Size = new Size(207, 46);
             btnThuoc.TabIndex = 0;
             btnThuoc.Text = "   Thuốc men";
+            btnThuoc.Click += btnThuoc_Click;
             // 
             // btnHoaDon
             // 
@@ -226,6 +230,7 @@
             btnHoaDon.Size = new Size(207, 44);
             btnHoaDon.TabIndex = 0;
             btnHoaDon.Text = "Hóa đơn";
+            btnHoaDon.Click += btnHoaDon_Click;
             // 
             // btnNhanVien
             // 
@@ -245,6 +250,7 @@
             btnNhanVien.Size = new Size(207, 53);
             btnNhanVien.TabIndex = 0;
             btnNhanVien.Text = "  Nhân viên";
+            btnNhanVien.Click += btnNhanVien_Click;
             // 
             // btnBCTK
             // 

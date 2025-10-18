@@ -31,7 +31,7 @@ namespace QuanLyPhongKhamPhucHoa
             else
                 label1.Text = "Xin chào!";
         }
-        
+
         private void quanToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -47,7 +47,7 @@ namespace QuanLyPhongKhamPhucHoa
 
         }
 
-      
+
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
@@ -66,6 +66,36 @@ namespace QuanLyPhongKhamPhucHoa
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLichKham_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnKhamBenh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDonThuoc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThuoc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHoaDon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
         {
 
         }
