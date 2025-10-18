@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\QuanLyPhongKhamPhucHoa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|d:\\quanlyphongkhamphuchoa\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|d:\\quanlyphongkhamphuchoa\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|d:\\quanlyphongkhamphuchoa\\frmchaomung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmchaomung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|d:\\quanlyphongkhamphuchoa\\frmchaomung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmchaomung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|D:\\QuanLyPhongKhamPhucHoa\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|d:\\quanlyphongkhamphuchoa\\frmdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|d:\\quanlyphongkhamphuchoa\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AED21854-A05F-47BC-B121-B643D20422F9}|QuanLyPhongKhamPhucHoa.csproj|solutionrelative:frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmChaoMung.cs",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmChaoMung.cs",
+              "RelativeDocumentMoniker": "FrmChaoMung.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmChaoMung.cs",
+              "RelativeToolTip": "FrmChaoMung.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:22:42.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmChaoMung.cs [Design]",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmChaoMung.cs",
+              "RelativeDocumentMoniker": "FrmChaoMung.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmChaoMung.cs [Design]",
+              "RelativeToolTip": "FrmChaoMung.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T15:22:35.393Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmMain.cs",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmMain.cs",
+              "RelativeToolTip": "FrmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T08:09:20.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMain.cs [Design]",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmMain.cs",
+              "RelativeDocumentMoniker": "FrmMain.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmMain.cs [Design]",
+              "RelativeToolTip": "FrmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T14:53:02.252Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmDangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmDangNhap.cs",
+              "RelativeDocumentMoniker": "FrmDangNhap.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmDangNhap.cs [Design]",
+              "RelativeToolTip": "FrmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:32:44.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmDangNhap.cs",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmDangNhap.cs",
+              "RelativeDocumentMoniker": "FrmDangNhap.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmDangNhap.cs",
+              "RelativeToolTip": "FrmDangNhap.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswIUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-18T13:21:02.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmDangNhap.Designer.cs",
+              "DocumentMoniker": "D:\\QuanLyPhongKhamPhucHoa\\FrmDangNhap.Designer.cs",
+              "RelativeDocumentMoniker": "FrmDangNhap.Designer.cs",
+              "ToolTip": "D:\\QuanLyPhongKhamPhucHoa\\FrmDangNhap.Designer.cs",
+              "RelativeToolTip": "FrmDangNhap.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T14:00:42.792Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
