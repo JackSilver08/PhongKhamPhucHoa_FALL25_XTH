@@ -67,11 +67,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.FrmMain_PhucHoa1;
-            pictureBox1.Location = new Point(179, 32);
+            pictureBox1.Image = Properties.Resources.FrmMain_PhucHoa_CHOTDON;
+            pictureBox1.Location = new Point(137, 32);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(661, 428);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Size = new Size(761, 428);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
