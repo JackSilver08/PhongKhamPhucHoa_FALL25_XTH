@@ -72,6 +72,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "FrmChaoMung";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmChaoMung";
             Load += FrmChaoMung_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

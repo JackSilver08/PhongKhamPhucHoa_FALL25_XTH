@@ -347,6 +347,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FrmDangNhap";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Phòng Khám Phúc Hòa ";
             FormClosing += FrmDangNhap_FormClosing;
             Load += FrmDangNhap_Load;
