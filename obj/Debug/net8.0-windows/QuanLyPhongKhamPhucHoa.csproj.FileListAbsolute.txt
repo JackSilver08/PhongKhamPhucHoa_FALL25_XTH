@@ -146,4 +146,3 @@ D:\QuanLyPhongKhamPhucHoa\bin\Debug\net8.0-windows\runtimes\win-x86\native\Micro
 D:\QuanLyPhongKhamPhucHoa\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\QuanLyPhongKhamPhucHoa\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\QuanLyPhongKhamPhucHoa\obj\Debug\net8.0-windows\QuanLyPhongKhamPhucHoa.FrmMain.resources
-D:\QuanLyPhongKhamPhucHoa\obj\Debug\net8.0-windows\QuanLyPhongKhamPhucHoa.sourcelink.json

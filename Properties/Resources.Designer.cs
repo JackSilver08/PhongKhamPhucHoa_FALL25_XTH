@@ -73,6 +73,16 @@ namespace QuanLyPhongKhamPhucHoa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FrmMain_PhucHoa_CHOTDON {
+            get {
+                object obj = ResourceManager.GetObject("FrmMain_PhucHoa_CHOTDON", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FrmWelCome_PHUCHOA {
             get {
                 object obj = ResourceManager.GetObject("FrmWelCome_PHUCHOA", resourceCulture);

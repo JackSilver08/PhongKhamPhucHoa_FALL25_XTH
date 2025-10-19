@@ -121,13 +121,16 @@
   <data name="Tru_So_Phong_Kham" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tru_So_Phong_Kham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FrmMain_PhucHoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrmMain_PhucHoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo phòng khám Phúc Hòa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo phòng khám Phúc Hòa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FrmWelCome_PHUCHOA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FrmWelCome_PHUCHOA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FrmMain_PhucHoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FrmMain_PhucHoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FrmMain_PhucHoa_CHOTDON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrmMain_PhucHoa_CHOTDON1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

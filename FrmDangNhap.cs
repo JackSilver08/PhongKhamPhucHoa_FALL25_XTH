@@ -1,11 +1,18 @@
 ﻿using Microsoft.Data.SqlClient;
-
+using System.Runtime.InteropServices;
 namespace QuanLyPhongKhamPhucHoa
 {
     public partial class FrmDangNhap : Form
     {
         public static string TenDangNhapHienTai = string.Empty;
+        [DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
 
+        [DllImport("user32.dll")]
+        public static extern IntPtr SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+
+        private const int WM_NCLBUTTONDOWN = 0xA1;
+        private const int HTCAPTION = 0x2;
         public FrmDangNhap()
         {
             InitializeComponent();
@@ -157,6 +164,40 @@ namespace QuanLyPhongKhamPhucHoa
                     MessageBox.Show("Lỗi kết nối CSDL: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void FrmDangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left) // chỉ kéo khi nhấn chuột trái
+            {
+                ReleaseCapture();
+                SendMessage(this.Handle, WM_NCLBUTTONDOWN, HTCAPTION, 0);
+            }
+        }
+
+        private void txtTenTK_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMK_TextChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
