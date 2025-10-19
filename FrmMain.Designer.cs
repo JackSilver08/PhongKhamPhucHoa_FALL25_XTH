@@ -212,9 +212,9 @@
             btnBenhNhan.Name = "btnBenhNhan";
             btnBenhNhan.PressedColor = Color.White;
             btnBenhNhan.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            btnBenhNhan.Size = new Size(207, 47);
+            btnBenhNhan.Size = new Size(156, 47);
             btnBenhNhan.TabIndex = 0;
-            btnBenhNhan.Text = "  Bệnh nhân";
+            btnBenhNhan.Text = "Bệnh nhân";
             btnBenhNhan.Click += btnBenhNhan_Click;
             // 
             // btnLichKham
@@ -232,9 +232,9 @@
             btnLichKham.Location = new Point(0, 85);
             btnLichKham.Name = "btnLichKham";
             btnLichKham.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            btnLichKham.Size = new Size(207, 46);
+            btnLichKham.Size = new Size(156, 46);
             btnLichKham.TabIndex = 0;
-            btnLichKham.Text = "  Lịch khám";
+            btnLichKham.Text = "Lịch khám";
             btnLichKham.Click += btnLichKham_Click;
             // 
             // btnKhamBenh
@@ -249,12 +249,12 @@
             btnKhamBenh.FillColor2 = Color.Crimson;
             btnKhamBenh.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnKhamBenh.ForeColor = Color.White;
-            btnKhamBenh.Location = new Point(0, 125);
+            btnKhamBenh.Location = new Point(0, 124);
             btnKhamBenh.Name = "btnKhamBenh";
             btnKhamBenh.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnKhamBenh.Size = new Size(207, 50);
+            btnKhamBenh.Size = new Size(156, 51);
             btnKhamBenh.TabIndex = 0;
-            btnKhamBenh.Text = "   Khám bệnh";
+            btnKhamBenh.Text = "  Khám bệnh";
             btnKhamBenh.Click += btnKhamBenh_Click;
             // 
             // btnDonThuoc
@@ -272,9 +272,9 @@
             btnDonThuoc.Location = new Point(0, 170);
             btnDonThuoc.Name = "btnDonThuoc";
             btnDonThuoc.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            btnDonThuoc.Size = new Size(207, 53);
+            btnDonThuoc.Size = new Size(156, 53);
             btnDonThuoc.TabIndex = 0;
-            btnDonThuoc.Text = "  Đơn thuốc";
+            btnDonThuoc.Text = " Đơn thuốc";
             btnDonThuoc.Click += btnDonThuoc_Click;
             // 
             // btnThuoc
@@ -292,9 +292,9 @@
             btnThuoc.Location = new Point(0, 215);
             btnThuoc.Name = "btnThuoc";
             btnThuoc.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnThuoc.Size = new Size(207, 46);
+            btnThuoc.Size = new Size(156, 46);
             btnThuoc.TabIndex = 0;
-            btnThuoc.Text = "   Thuốc men";
+            btnThuoc.Text = "  Thuốc men";
             btnThuoc.Click += btnThuoc_Click;
             // 
             // btnHoaDon
@@ -312,7 +312,7 @@
             btnHoaDon.Location = new Point(0, 257);
             btnHoaDon.Name = "btnHoaDon";
             btnHoaDon.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnHoaDon.Size = new Size(207, 44);
+            btnHoaDon.Size = new Size(156, 44);
             btnHoaDon.TabIndex = 0;
             btnHoaDon.Text = "Hóa đơn";
             btnHoaDon.Click += btnHoaDon_Click;
@@ -332,9 +332,9 @@
             btnNhanVien.Location = new Point(0, 299);
             btnNhanVien.Name = "btnNhanVien";
             btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnNhanVien.Size = new Size(207, 55);
+            btnNhanVien.Size = new Size(156, 55);
             btnNhanVien.TabIndex = 0;
-            btnNhanVien.Text = "  Nhân viên";
+            btnNhanVien.Text = "Nhân viên";
             btnNhanVien.Click += btnNhanVien_Click;
             // 
             // btnBCTK
@@ -352,7 +352,7 @@
             btnBCTK.Location = new Point(0, 352);
             btnBCTK.Name = "btnBCTK";
             btnBCTK.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnBCTK.Size = new Size(207, 47);
+            btnBCTK.Size = new Size(156, 47);
             btnBCTK.TabIndex = 0;
             btnBCTK.Text = "Thống kê";
             // 
@@ -372,9 +372,9 @@
             guna2GradientButton1.Location = new Point(0, 397);
             guna2GradientButton1.Name = "guna2GradientButton1";
             guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2GradientButton1.Size = new Size(207, 56);
+            guna2GradientButton1.Size = new Size(156, 56);
             guna2GradientButton1.TabIndex = 0;
-            guna2GradientButton1.Text = "  Đăng xuất";
+            guna2GradientButton1.Text = "Đăng xuất";
             guna2GradientButton1.Click += guna2GradientButton1_Click;
             // 
             // guna2HtmlLabel1
@@ -392,7 +392,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.FrmMain_PhucHoa_CHOTDON;
-            pictureBox2.Location = new Point(149, 36);
+            pictureBox2.Location = new Point(121, 36);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(730, 417);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
