@@ -63,6 +63,36 @@ namespace QuanLyPhongKhamPhucHoa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BenhNhan_Icon {
+            get {
+                object obj = ResourceManager.GetObject("BenhNhan_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DangXuat_Icon {
+            get {
+                object obj = ResourceManager.GetObject("DangXuat_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DonThuoc_Icon {
+            get {
+                object obj = ResourceManager.GetObject("DonThuoc_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FrmMain_PhucHoa {
             get {
                 object obj = ResourceManager.GetObject("FrmMain_PhucHoa", resourceCulture);
@@ -93,9 +123,90 @@ namespace QuanLyPhongKhamPhucHoa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HoaDon_Icon {
+            get {
+                object obj = ResourceManager.GetObject("HoaDon_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KhamBenh_Icon {
+            get {
+                object obj = ResourceManager.GetObject("KhamBenh_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KhamBenh_Icon1 {
+            get {
+                object obj = ResourceManager.GetObject("KhamBenh_Icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap LichKham_Icon {
+            get {
+                object obj = ResourceManager.GetObject("LichKham_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_phòng_khám_Phúc_Hòa {
             get {
                 object obj = ResourceManager.GetObject("Logo phòng khám Phúc Hòa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NhanVien_Icon {
+            get {
+                object obj = ResourceManager.GetObject("NhanVien_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tạo_hình_ảnh_một_căn_phòng_bệnh_viện_với_những_người_bệnh_nhân_và_bác_sĩ_đang_trò_chuyện {
+            get {
+                object obj = ResourceManager.GetObject("Tạo hình ảnh một căn phòng bệnh viện với những người bệnh nhân và bác sĩ đang trò" +
+                        " chuyện", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ThongKe_Icon {
+            get {
+                object obj = ResourceManager.GetObject("ThongKe_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ThuocMen_Icon {
+            get {
+                object obj = ResourceManager.GetObject("ThuocMen_Icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -118,19 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Tru_So_Phong_Kham" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tru_So_Phong_Kham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ThongKe_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThongKe_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LichKham_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LichKham_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FrmMain_PhucHoa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FrmMain_PhucHoa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logo phòng khám Phúc Hòa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logo phòng khám Phúc Hòa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DangXuat_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DangXuat_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KhamBenh_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KhamBenh_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tru_So_Phong_Kham" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tru_So_Phong_Kham.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DonThuoc_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DonThuoc_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrmMain_PhucHoa_CHOTDON" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrmMain_PhucHoa_CHOTDON1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FrmWelCome_PHUCHOA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FrmWelCome_PHUCHOA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FrmMain_PhucHoa_CHOTDON" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FrmMain_PhucHoa_CHOTDON1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Logo phòng khám Phúc Hòa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo phòng khám Phúc Hòa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HoaDon_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HoaDon_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KhamBenh_Icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KhamBenh_Icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ThuocMen_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ThuocMen_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BenhNhan_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BenhNhan_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NhanVien_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NhanVien_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tạo hình ảnh một căn phòng bệnh viện với những người bệnh nhân và bác sĩ đang trò chuyện" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tạo hình ảnh một căn phòng bệnh viện với những người bệnh nhân và bác sĩ đang trò chuyện.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

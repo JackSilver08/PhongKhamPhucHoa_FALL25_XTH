@@ -38,33 +38,28 @@ namespace QuanLyPhongKhamPhucHoa
 
         private void FrmChaoMung_Load(object sender, EventArgs e)
         {
-            // Cấu hình thanh tiến trình
+
             PB_Welcome.Minimum = 0;
             PB_Welcome.Maximum = 100;
             PB_Welcome.Value = 0;
 
-            // Tạo timer chạy 10s (100 * 0.1s)
             timer = new System.Windows.Forms.Timer();
-            timer.Interval = 100; // 100ms
+            timer.Interval = 20; // ⏱ mỗi 20ms
             timer.Tick += Timer_Tick;
             timer.Start();
         }
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            progressValue++;
+            progressValue += 5; // tăng nhanh hơn
+            if (progressValue > 100) progressValue = 100;
             PB_Welcome.Value = progressValue;
 
-            // Khi đạt 100% (sau 10s)
             if (progressValue >= 100)
             {
                 timer.Stop();
-
-                // Mở form đăng nhập
                 FrmDangNhap frm = new FrmDangNhap();
                 frm.Show();
-
-                // Ẩn form chào mừng
                 this.Hide();
             }
         }

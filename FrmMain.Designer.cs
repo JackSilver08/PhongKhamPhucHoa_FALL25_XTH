@@ -63,7 +63,6 @@
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             btnBenhNhan = new Guna.UI2.WinForms.Guna2GradientButton();
             btnLichKham = new Guna.UI2.WinForms.Guna2GradientButton();
-            btnKhamBenh = new Guna.UI2.WinForms.Guna2GradientButton();
             btnDonThuoc = new Guna.UI2.WinForms.Guna2GradientButton();
             btnThuoc = new Guna.UI2.WinForms.Guna2GradientButton();
             btnHoaDon = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -72,6 +71,7 @@
             guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             pictureBox2 = new PictureBox();
+            btnKhamBenh = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -87,7 +87,8 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.Firebrick;
+            panel1.BackColor = Color.Crimson;
+            panel1.BackgroundImageLayout = ImageLayout.Center;
             panel1.Controls.Add(btnClose);
             panel1.Controls.Add(btnMaximize);
             panel1.Controls.Add(btnMinimize);
@@ -104,6 +105,7 @@
             // btnClose
             // 
             btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnClose.BackColor = Color.Transparent;
             btnClose.CustomizableEdges = customizableEdges1;
             btnClose.DisabledState.BorderColor = Color.DarkGray;
             btnClose.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -112,7 +114,7 @@
             btnClose.FillColor = Color.Transparent;
             btnClose.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnClose.ForeColor = Color.White;
-            btnClose.Location = new Point(753, 1);
+            btnClose.Location = new Point(753, 0);
             btnClose.Name = "btnClose";
             btnClose.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnClose.Size = new Size(33, 39);
@@ -123,6 +125,7 @@
             // btnMaximize
             // 
             btnMaximize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMaximize.BackColor = Color.Transparent;
             btnMaximize.CustomizableEdges = customizableEdges3;
             btnMaximize.DisabledState.BorderColor = Color.DarkGray;
             btnMaximize.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -131,7 +134,7 @@
             btnMaximize.FillColor = Color.Transparent;
             btnMaximize.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMaximize.ForeColor = Color.White;
-            btnMaximize.Location = new Point(715, 2);
+            btnMaximize.Location = new Point(715, 0);
             btnMaximize.Name = "btnMaximize";
             btnMaximize.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnMaximize.Size = new Size(41, 39);
@@ -142,6 +145,7 @@
             // btnMinimize
             // 
             btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMinimize.BackColor = Color.Transparent;
             btnMinimize.CustomizableEdges = customizableEdges5;
             btnMinimize.DisabledState.BorderColor = Color.DarkGray;
             btnMinimize.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -161,9 +165,10 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(221, 3);
+            label2.Location = new Point(221, 4);
             label2.Name = "label2";
             label2.Size = new Size(20, 28);
             label2.TabIndex = 2;
@@ -173,6 +178,7 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
             label1.Location = new Point(241, 4);
@@ -186,7 +192,7 @@
             // 
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2HtmlLabel2.ForeColor = Color.WhiteSmoke;
+            guna2HtmlLabel2.ForeColor = Color.White;
             guna2HtmlLabel2.Location = new Point(26, 1);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(189, 33);
@@ -196,7 +202,7 @@
             // 
             // btnBenhNhan
             // 
-            btnBenhNhan.BackColor = Color.White;
+            btnBenhNhan.BackColor = Color.Transparent;
             btnBenhNhan.BorderColor = Color.White;
             btnBenhNhan.CustomizableEdges = customizableEdges7;
             btnBenhNhan.DisabledState.BorderColor = Color.DarkGray;
@@ -204,10 +210,12 @@
             btnBenhNhan.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnBenhNhan.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnBenhNhan.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnBenhNhan.FillColor = Color.Red;
-            btnBenhNhan.FillColor2 = Color.Crimson;
+            btnBenhNhan.FillColor = Color.LavenderBlush;
+            btnBenhNhan.FillColor2 = Color.White;
+            btnBenhNhan.FocusedColor = Color.Black;
             btnBenhNhan.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnBenhNhan.ForeColor = Color.White;
+            btnBenhNhan.ForeColor = Color.Red;
+            btnBenhNhan.Image = Properties.Resources.BenhNhan_Icon;
             btnBenhNhan.Location = new Point(0, 39);
             btnBenhNhan.Name = "btnBenhNhan";
             btnBenhNhan.PressedColor = Color.White;
@@ -219,16 +227,18 @@
             // 
             // btnLichKham
             // 
+            btnLichKham.BackColor = Color.Transparent;
             btnLichKham.CustomizableEdges = customizableEdges9;
             btnLichKham.DisabledState.BorderColor = Color.DarkGray;
             btnLichKham.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLichKham.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnLichKham.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnLichKham.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnLichKham.FillColor = Color.Red;
-            btnLichKham.FillColor2 = Color.Crimson;
+            btnLichKham.FillColor = Color.LavenderBlush;
+            btnLichKham.FillColor2 = Color.White;
             btnLichKham.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnLichKham.ForeColor = Color.White;
+            btnLichKham.ForeColor = Color.Red;
+            btnLichKham.Image = Properties.Resources.LichKham_Icon;
             btnLichKham.Location = new Point(0, 85);
             btnLichKham.Name = "btnLichKham";
             btnLichKham.ShadowDecoration.CustomizableEdges = customizableEdges10;
@@ -237,142 +247,133 @@
             btnLichKham.Text = "Lịch khám";
             btnLichKham.Click += btnLichKham_Click;
             // 
-            // btnKhamBenh
-            // 
-            btnKhamBenh.CustomizableEdges = customizableEdges11;
-            btnKhamBenh.DisabledState.BorderColor = Color.DarkGray;
-            btnKhamBenh.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnKhamBenh.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnKhamBenh.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            btnKhamBenh.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnKhamBenh.FillColor = Color.Red;
-            btnKhamBenh.FillColor2 = Color.Crimson;
-            btnKhamBenh.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnKhamBenh.ForeColor = Color.White;
-            btnKhamBenh.Location = new Point(0, 124);
-            btnKhamBenh.Name = "btnKhamBenh";
-            btnKhamBenh.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            btnKhamBenh.Size = new Size(156, 51);
-            btnKhamBenh.TabIndex = 0;
-            btnKhamBenh.Text = "  Khám bệnh";
-            btnKhamBenh.Click += btnKhamBenh_Click;
-            // 
             // btnDonThuoc
             // 
-            btnDonThuoc.CustomizableEdges = customizableEdges13;
+            btnDonThuoc.BackColor = Color.Transparent;
+            btnDonThuoc.CustomizableEdges = customizableEdges11;
             btnDonThuoc.DisabledState.BorderColor = Color.DarkGray;
             btnDonThuoc.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDonThuoc.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnDonThuoc.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnDonThuoc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnDonThuoc.FillColor = Color.Red;
-            btnDonThuoc.FillColor2 = Color.Crimson;
+            btnDonThuoc.FillColor = Color.LavenderBlush;
+            btnDonThuoc.FillColor2 = Color.White;
             btnDonThuoc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDonThuoc.ForeColor = Color.White;
+            btnDonThuoc.ForeColor = Color.Red;
+            btnDonThuoc.Image = Properties.Resources.DonThuoc_Icon;
             btnDonThuoc.Location = new Point(0, 170);
             btnDonThuoc.Name = "btnDonThuoc";
-            btnDonThuoc.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnDonThuoc.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnDonThuoc.Size = new Size(156, 53);
             btnDonThuoc.TabIndex = 0;
-            btnDonThuoc.Text = " Đơn thuốc";
+            btnDonThuoc.Text = "Đơn thuốc";
             btnDonThuoc.Click += btnDonThuoc_Click;
             // 
             // btnThuoc
             // 
-            btnThuoc.CustomizableEdges = customizableEdges15;
+            btnThuoc.BackColor = Color.Transparent;
+            btnThuoc.CustomizableEdges = customizableEdges13;
             btnThuoc.DisabledState.BorderColor = Color.DarkGray;
             btnThuoc.DisabledState.CustomBorderColor = Color.DarkGray;
             btnThuoc.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnThuoc.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnThuoc.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnThuoc.FillColor = Color.Red;
-            btnThuoc.FillColor2 = Color.Crimson;
+            btnThuoc.FillColor = Color.LavenderBlush;
+            btnThuoc.FillColor2 = Color.White;
             btnThuoc.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnThuoc.ForeColor = Color.White;
-            btnThuoc.Location = new Point(0, 215);
+            btnThuoc.ForeColor = Color.Red;
+            btnThuoc.Image = Properties.Resources.ThuocMen_Icon;
+            btnThuoc.Location = new Point(0, 216);
             btnThuoc.Name = "btnThuoc";
-            btnThuoc.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            btnThuoc.Size = new Size(156, 46);
+            btnThuoc.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnThuoc.Size = new Size(156, 56);
             btnThuoc.TabIndex = 0;
-            btnThuoc.Text = "  Thuốc men";
+            btnThuoc.Text = "Thuốc men";
             btnThuoc.Click += btnThuoc_Click;
             // 
             // btnHoaDon
             // 
-            btnHoaDon.CustomizableEdges = customizableEdges17;
+            btnHoaDon.BackColor = Color.Transparent;
+            btnHoaDon.CustomizableEdges = customizableEdges15;
             btnHoaDon.DisabledState.BorderColor = Color.DarkGray;
             btnHoaDon.DisabledState.CustomBorderColor = Color.DarkGray;
             btnHoaDon.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnHoaDon.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnHoaDon.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnHoaDon.FillColor = Color.Red;
-            btnHoaDon.FillColor2 = Color.Crimson;
+            btnHoaDon.FillColor = Color.LavenderBlush;
+            btnHoaDon.FillColor2 = Color.White;
             btnHoaDon.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnHoaDon.ForeColor = Color.White;
-            btnHoaDon.Location = new Point(0, 257);
+            btnHoaDon.ForeColor = Color.Red;
+            btnHoaDon.Image = Properties.Resources.HoaDon_Icon;
+            btnHoaDon.Location = new Point(0, 264);
             btnHoaDon.Name = "btnHoaDon";
-            btnHoaDon.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnHoaDon.Size = new Size(156, 44);
+            btnHoaDon.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnHoaDon.Size = new Size(156, 52);
             btnHoaDon.TabIndex = 0;
             btnHoaDon.Text = "Hóa đơn";
             btnHoaDon.Click += btnHoaDon_Click;
             // 
             // btnNhanVien
             // 
-            btnNhanVien.CustomizableEdges = customizableEdges19;
+            btnNhanVien.BackColor = Color.Transparent;
+            btnNhanVien.CustomizableEdges = customizableEdges17;
             btnNhanVien.DisabledState.BorderColor = Color.DarkGray;
             btnNhanVien.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNhanVien.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnNhanVien.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnNhanVien.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnNhanVien.FillColor = Color.Red;
-            btnNhanVien.FillColor2 = Color.Crimson;
+            btnNhanVien.FillColor = Color.LavenderBlush;
+            btnNhanVien.FillColor2 = Color.White;
             btnNhanVien.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnNhanVien.ForeColor = Color.White;
-            btnNhanVien.Location = new Point(0, 299);
+            btnNhanVien.ForeColor = Color.Red;
+            btnNhanVien.Image = Properties.Resources.NhanVien_Icon;
+            btnNhanVien.Location = new Point(0, 315);
             btnNhanVien.Name = "btnNhanVien";
-            btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnNhanVien.Size = new Size(156, 55);
+            btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnNhanVien.Size = new Size(156, 51);
             btnNhanVien.TabIndex = 0;
             btnNhanVien.Text = "Nhân viên";
             btnNhanVien.Click += btnNhanVien_Click;
             // 
             // btnBCTK
             // 
-            btnBCTK.CustomizableEdges = customizableEdges21;
+            btnBCTK.BackColor = Color.Transparent;
+            btnBCTK.CustomizableEdges = customizableEdges19;
             btnBCTK.DisabledState.BorderColor = Color.DarkGray;
             btnBCTK.DisabledState.CustomBorderColor = Color.DarkGray;
             btnBCTK.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             btnBCTK.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             btnBCTK.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnBCTK.FillColor = Color.Red;
-            btnBCTK.FillColor2 = Color.Crimson;
+            btnBCTK.FillColor = Color.LavenderBlush;
+            btnBCTK.FillColor2 = Color.White;
             btnBCTK.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnBCTK.ForeColor = Color.White;
-            btnBCTK.Location = new Point(0, 352);
+            btnBCTK.ForeColor = Color.Red;
+            btnBCTK.Image = Properties.Resources.ThongKe_Icon;
+            btnBCTK.Location = new Point(0, 366);
             btnBCTK.Name = "btnBCTK";
-            btnBCTK.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnBCTK.Size = new Size(156, 47);
+            btnBCTK.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnBCTK.Size = new Size(156, 40);
             btnBCTK.TabIndex = 0;
             btnBCTK.Text = "Thống kê";
             // 
             // guna2GradientButton1
             // 
-            guna2GradientButton1.BackColor = Color.White;
-            guna2GradientButton1.CustomizableEdges = customizableEdges23;
+            guna2GradientButton1.BackColor = Color.Transparent;
+            guna2GradientButton1.CustomizableEdges = customizableEdges21;
             guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
             guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2GradientButton1.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
             guna2GradientButton1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton1.FillColor = Color.Brown;
-            guna2GradientButton1.FillColor2 = Color.Crimson;
+            guna2GradientButton1.FillColor = Color.LavenderBlush;
+            guna2GradientButton1.FillColor2 = Color.White;
             guna2GradientButton1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2GradientButton1.ForeColor = Color.Gold;
-            guna2GradientButton1.Location = new Point(0, 397);
+            guna2GradientButton1.ForeColor = Color.Red;
+            guna2GradientButton1.Image = Properties.Resources.DangXuat_Icon;
+            guna2GradientButton1.Location = new Point(0, 405);
             guna2GradientButton1.Name = "guna2GradientButton1";
-            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            guna2GradientButton1.Size = new Size(156, 56);
+            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2GradientButton1.Size = new Size(156, 48);
             guna2GradientButton1.TabIndex = 0;
             guna2GradientButton1.Text = "Đăng xuất";
             guna2GradientButton1.Click += guna2GradientButton1_Click;
@@ -399,6 +400,28 @@
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
             pictureBox2.MouseDown += pictureBox2_MouseDown;
+            // 
+            // btnKhamBenh
+            // 
+            btnKhamBenh.BackColor = Color.Transparent;
+            btnKhamBenh.CustomizableEdges = customizableEdges23;
+            btnKhamBenh.DisabledState.BorderColor = Color.DarkGray;
+            btnKhamBenh.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnKhamBenh.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnKhamBenh.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
+            btnKhamBenh.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnKhamBenh.FillColor = Color.LavenderBlush;
+            btnKhamBenh.FillColor2 = Color.White;
+            btnKhamBenh.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnKhamBenh.ForeColor = Color.Red;
+            btnKhamBenh.Image = Properties.Resources.KhamBenh_Icon1;
+            btnKhamBenh.Location = new Point(0, 124);
+            btnKhamBenh.Name = "btnKhamBenh";
+            btnKhamBenh.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnKhamBenh.Size = new Size(156, 57);
+            btnKhamBenh.TabIndex = 0;
+            btnKhamBenh.Text = "Khám bệnh";
+            btnKhamBenh.Click += btnKhamBenh_Click;
             // 
             // FrmMain
             // 
@@ -438,7 +461,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2GradientButton btnBenhNhan;
         private Guna.UI2.WinForms.Guna2GradientButton btnLichKham;
-        private Guna.UI2.WinForms.Guna2GradientButton btnKhamBenh;
         private Guna.UI2.WinForms.Guna2GradientButton btnDonThuoc;
         private Guna.UI2.WinForms.Guna2GradientButton btnThuoc;
         private Guna.UI2.WinForms.Guna2GradientButton btnHoaDon;
@@ -451,5 +473,6 @@
         private Guna.UI2.WinForms.Guna2Button btnMinimize;
         private Guna.UI2.WinForms.Guna2Button btnClose;
         private Guna.UI2.WinForms.Guna2Button btnMaximize;
+        private Guna.UI2.WinForms.Guna2GradientButton btnKhamBenh;
     }
 }

@@ -81,7 +81,8 @@ namespace QuanLyPhongKhamPhucHoa
 
         private void btnBenhNhan_Click(object sender, EventArgs e)
         {
-
+            frmBenhNhan bn = new frmBenhNhan();
+            bn.Show();
         }
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
@@ -114,7 +115,8 @@ namespace QuanLyPhongKhamPhucHoa
 
         private void btnLichKham_Click(object sender, EventArgs e)
         {
-
+            FrmLichKham lk = new FrmLichKham();
+            lk.Show();
         }
 
         private void btnKhamBenh_Click(object sender, EventArgs e)
@@ -177,7 +179,7 @@ namespace QuanLyPhongKhamPhucHoa
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+           Application.Exit();
         }
     }
 }
